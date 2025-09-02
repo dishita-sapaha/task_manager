@@ -45,5 +45,7 @@ class TaskManager:
 tm = TaskManager()
 #tm.add_task('Code', 'duration: 15 mins daily')
 tm.complete_task('Code')
+#tm.add_task('Buy cheese', 'Mozorella')
+tm.complete_task('Buy cheese')
 #tm.remove_task('unload the dishwasher')
 tm.list_tasks()
